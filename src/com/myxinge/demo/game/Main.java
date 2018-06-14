@@ -41,7 +41,7 @@ public class Main implements ApplicationListener {
         dropTexture = new Texture(Gdx.files.internal("texture/droplet.png"));
         bucketTexture = new Texture(Gdx.files.internal("texture/bucket.png"));
 
-        dropSound = Gdx.audio.newSound(Gdx.files.internal("sound/drop.mp3"));
+        dropSound = Gdx.audio.newSound(Gdx.files.internal("sound/drop.wav"));
         rainMusic = Gdx.audio.newMusic(Gdx.files.internal("sound/rain.mp3"));
 
         //开始播放背景音乐
