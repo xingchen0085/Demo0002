@@ -2,6 +2,7 @@ package com.myxinge.demo;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.myxinge.demo.game.CameraDemo;
 import com.myxinge.demo.game.Main;
 
 public class DemoLauncher {
@@ -10,8 +11,8 @@ public class DemoLauncher {
         config.width=568;
         config.height=360;
 
-        config.resizable=false;
+//        config.resizable=false;
 
-        new LwjglApplication(new Main(),config);
+        new LwjglApplication(new CameraDemo(),config);
     }
 }
