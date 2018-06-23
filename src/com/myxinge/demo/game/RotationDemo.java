@@ -22,6 +22,7 @@ public class RotationDemo implements ApplicationListener {
     public void create() {
         shapeRenderer = new ShapeRenderer();
         shapeRenderer.setColor(Color.RED);
+
         radius = 100;
         if (Gdx.graphics.getWidth() > Gdx.graphics.getHeight()) {
             max = Gdx.graphics.getHeight() / 2;
